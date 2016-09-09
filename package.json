@@ -1,0 +1,14 @@
+{
+  "name": "debug-ware",
+  "version": "1.0.0",
+  "description": "small debugging middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Cousens",
+  "license": "ISC",
+  "dependencies": {
+    "on-finished": "^2.3.0"
+  }
+}
