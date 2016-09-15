@@ -7,8 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Cousens",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "on-finished": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcousens/debug-ware.git"
+  },
+  "keywords": [
+    "debug",
+    "middleware",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/dcousens/debug-ware/issues"
+  },
+  "homepage": "https://github.com/dcousens/debug-ware#readme"
 }
