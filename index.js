@@ -19,7 +19,7 @@ module.exports = function debugWare (debug) {
         : status >= 200 ? 32 // green
         : 0 // no color
 
-      debug(`${req.method} ${req.url} \x1b[${color}m${status}\x1b[0m ${taken} ${size}`)
+      debug(`${req.method} ${req.originalUrl} \x1b[${color}m${status} ${res.statusMessage}\x1b[0m ${taken} ${size}`)
     }
 
     onFinished(res, log)
