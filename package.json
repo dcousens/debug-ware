@@ -9,6 +9,7 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "dependencies": {
+    "bytes": "^2.4.0",
     "on-finished": "^2.3.0"
   },
   "repository": {
