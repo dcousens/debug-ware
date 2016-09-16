@@ -11,7 +11,7 @@ module.exports = function debugWare (debug) {
 
       var end = Date.now()
       var status = res.statusCode
-      var size = bytes(res.getHeader('content-length') || 0)
+      var size = bytes(parseInt(res.getHeader('content-length'), 10))
       var taken = ms(end - start)
       var color = status >= 500 ? 31 // red
         : status >= 400 ? 33 // yellow
