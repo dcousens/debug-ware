@@ -7,7 +7,7 @@ module.exports = function debugWare (debug) {
       if (err) return debug(`${req.method} ${req.url}`, err)
 
       var status = res.statusCode
-      var size = bytes(res.body && res.body.length || 0)
+      var size = bytes(res.header && res.header['content-length'] || 0)
       var color = status >= 500 ? 31 // red
         : status >= 400 ? 33 // yellow
         : status >= 300 ? 36 // cyan
