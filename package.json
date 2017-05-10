@@ -1,6 +1,6 @@
 {
   "name": "debug-ware",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "small debugging middleware",
   "main": "index.js",
   "scripts": {
