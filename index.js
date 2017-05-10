@@ -5,8 +5,8 @@ var ms = require('ms')
 module.exports = function debugWare (debug) {
   return function (req, res, next) {
     var start = Date.now()
-    var reqSize = req.body && Buffer.isBuffer(req.body) && req.body.length
-    if (reqSize) reqSize = bytes(reqSize | 0)
+    var reqSize = req.headers['content-length'] | 0
+    if (reqSize) reqSize = bytes(reqSize)
 
     function log (err) {
       if (err) return debug(`${req.method} ${req.url}`, err)
