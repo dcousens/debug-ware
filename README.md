@@ -14,3 +14,5 @@ let app = express()
 // debug logging
 app.use(debugWare(debug))
 ```
+
+# LICENSE [MIT](LICENSE)
