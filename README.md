@@ -16,4 +16,4 @@ app.use(debugWare(debug))
 ```
 
 ## LICENSE [MIT](LICENSE)
-Credit to [expressjs/morgan](https://github.com/expressjs/morgan/) for their middleware and the status code colouring.
+Credit to [expressjs/morgan](https://github.com/expressjs/morgan/) for their middleware inspiration and the status code colouring.
