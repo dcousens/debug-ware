@@ -1,5 +1,5 @@
 # debug-ware
-small debugging middleware
+A small debugging middleware for development purposes akin to `expressjs/morgan` but directly using a provided `debug` instance for logging.
 
 ## Example
 
@@ -14,3 +14,7 @@ let app = express()
 // debug logging
 app.use(debugWare(debug))
 ```
+
+
+## LICENSE [MIT](LICENSE)
+Credit to [expressjs/morgan](https://github.com/expressjs/morgan/) for their middleware and the status code colouring.
