@@ -1,7 +1,13 @@
 MIT License
 
+Copyright (c) 2010 Sencha Inc.
+
+Copyright (c) 2011 TJ Holowaychuk
+
 Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+
 Copyright (c) 2014-2017 Douglas Christopher Wilson <doug@somethingdoug.com>
+
 Copyright (c) 2016 Daniel Cousens
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
